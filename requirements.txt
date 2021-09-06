@@ -46,7 +46,7 @@ youtube-search-python
 gtts
 pretty_errors
 tswift
-PyYAML
+pyYAML
 humanize
 telegraph
 search_engine_parser
