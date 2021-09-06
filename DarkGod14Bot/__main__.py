@@ -234,7 +234,7 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Godness Federation🚫",
-                                url="https://t.me/DarkGod14BotSupport/552",
+                                url="https://t.me/DarkGod14BotSupport/558",
                             ),
                             InlineKeyboardButton(
                                 text="Godness Federation Logs🌐",
