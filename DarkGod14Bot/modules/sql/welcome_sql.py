@@ -65,7 +65,7 @@ DEFAULT_WELCOME_MESSAGES = [
     "Welcome {first}, leaving is not an option!",
     "Run Forest! ..I mean...{first}.",
     "{first} do 100 push-ups, 100 sit-ups, 100 squats, and 10km running EVERY SINGLE DAY!!!",  # One Punch ma
-    "Huh?\nDid a super user just join?\nOh wait, it's just {first}.",  # One Punch ma
+    "Huh?\nDid a God Mode User just join?\nOh wait, it's just {first}.",  # One Punch ma
     "Hey, {first}, ever heard the King Engine?",  # One Punch ma
     "Hey, {first}, empty your pockets.",
     "Hey, {first}!, are you strong?",
@@ -305,6 +305,16 @@ class WelcomeMuteUsers(BASE):
         self.human_check = human_check
 
 
+class DefenseMode(BASE):
+    __tablename__ = "defense_mode"
+    chat_id = Column(String(14), primary_key=True)
+    status = Column(Boolean, default=False)
+
+    def __init__(self, chat_id, status):
+        self.chat_id = str(chat_id)
+        self.status = status
+
+
 class CleanServiceSetting(BASE):
     __tablename__ = "clean_service"
     chat_id = Column(String(14), primary_key=True)
@@ -323,12 +333,14 @@ GoodbyeButtons.__table__.create(checkfirst=True)
 WelcomeMute.__table__.create(checkfirst=True)
 WelcomeMuteUsers.__table__.create(checkfirst=True)
 CleanServiceSetting.__table__.create(checkfirst=True)
+DefenseMode.__table__.create(checkfirst=True)
 
 INSERTION_LOCK = threading.RLock()
 WELC_BTN_LOCK = threading.RLock()
 LEAVE_BTN_LOCK = threading.RLock()
 WM_LOCK = threading.RLock()
 CS_LOCK = threading.RLock()
+DEFENSE_LOCK = threading.RLock()
 
 
 def welcome_mutes(chat_id):
@@ -594,6 +606,26 @@ def set_clean_service(chat_id: Union[int, str], setting: bool):
 
         chat_setting.clean_service = setting
         SESSION.add(chat_setting)
+        SESSION.commit()
+
+
+def getDefenseStatus(chat_id):
+    try:
+        resultObj = SESSION.query(DefenseMode).get(str(chat_id))
+        if resultObj:
+            return resultObj.status
+        return False  #default
+    finally:
+        SESSION.close()
+
+
+def setDefenseStatus(chat_id, status):
+    with DEFENSE_LOCK:
+        prevObj = SESSION.query(DefenseMode).get(str(chat_id))
+        if prevObj:
+            SESSION.delete(prevObj)
+        newObj = DefenseMode(str(chat_id), status)
+        SESSION.add(newObj)
         SESSION.commit()
 
 

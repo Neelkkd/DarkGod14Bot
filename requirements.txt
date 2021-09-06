@@ -13,8 +13,8 @@ zalgo-text
 geopy
 nltk
 psutil
-aiohttp
-Pillow
+aiohttp>=2.2.5
+Pillow>=4.2.0
 CurrencyConverter
 #googletrans
 google_trans_new
@@ -46,9 +46,10 @@ youtube-search-python
 gtts
 pretty_errors
 tswift
-pyYAML
+pyYAML>=5.1.2
 humanize
 telegraph
 search_engine_parser
 html2text
 bing_image_downloader
+multicolorcaptcha
