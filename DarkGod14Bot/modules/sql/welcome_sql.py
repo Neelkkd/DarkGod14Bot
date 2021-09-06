@@ -1,6 +1,7 @@
 import random
 import threading
 from typing import Union
+
 from DarkGod14Bot.modules.helper_funcs.msg_types import Types
 from DarkGod14Bot.modules.sql import BASE, SESSION
 from sqlalchemy import BigInteger, Boolean, Column, Integer, String, UnicodeText
