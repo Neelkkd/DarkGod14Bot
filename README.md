@@ -2,12 +2,45 @@
 
 # DarkGod14Bot
 
+<p align="center">
+<a href="https://www.codacy.com/gh/DarkGod14/DarkGod14Bot/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=DarkGod14/DarkGod14Bot&amp;utm_campaign=Badge_Grade" alt="Codacy Badge">
+<img src="https://app.codacy.com/project/badge/Grade/972e73015aaa4096bf109a79acae8afb" /> </a>
+<a href="https://github.com/DarkGod14/DarkGod14Bot" alt="Libraries.io dependency status for GitHub repo"> <img src="https://img.shields.io/librariesio/github/DarkGod14/DarkGod14Bot?style=flat&logo=github&color=red" /> </a>
+<a href="http://hits.dwyl.com/DarkGod14/DarkGod14Bot" alt="HitCount"> <img src="http://hits.dwyl.com/DarkGod14/DarkGod14Bot.svg" /> </a>
+<a href="https://github.com/DarkGod14/DarkGod14Bot/network/members" alt="GitHub stars"> <img src="https://img.shields.io/github/stars/DarkGod14/DarkGod14Bot?style=flat&logo=github&color=yellow" /> </a>
+<a href="https://github.com/DarkGod14/DarkGod14Bot/network/members" alt="GitHub forks"> <img src="https://img.shields.io/github/forks/DarkGod14/DarkGod14Bot" /> </a>
+</p>
+<p align="center">
+<a href="https://github.com/DarkGod14/DarkGod14Bot" alt="GitHub commit activity"> <img src="https://img.shields.io/github/commit-activity/m/DarkGod14/DarkGod14Bot" /> </a>
+<a href="https://github.com/DarkGod14/DarkGod14Bot/graphs/contributors" alt="GitHub contributors"> <img src="https://img.shields.io/github/contributors/DarkGod14/DarkGod14Bot?style=flat&logo=github" /> </a>
+<a href="https://github.com/DarkGod14/DarkGod14Bot" alt="GitHub closed pull requests"> <img src="https://img.shields.io/github/issues-pr-closed-raw/DarkGod14/DarkGod14Bot?color=success" /> </a>
+<a href="https://github.com/DarkGod14/DarkGod14Bot" alt="GitHub issues"> <img src="https://img.shields.io/github/issues-raw/DarkGod14/DarkGod14Bot?style=flat&logo=github&color=red" /> </a>
+<a href="https://github.com/DarkGod14/DarkGod14Bot" alt="GitHub closed issues"> <img src="https://img.shields.io/github/issues-closed-raw/DarkGod14/DarkGod14Bot?style=flat&logo=github&color=success" /> </a>
+</p>
+<p align="center">
+<a href="https://www.python.org/" alt="made-with-python"> <img src="https://img.shields.io/badge/made%20with-Python-1f425f.svg?style=flat&logo=python&color=blue" /> </a>
+<a href="https://github.com/DarkGod14/DarkGod14Bot" alt="Python supported versions"> <img src="https://img.shields.io/badge/python-3.6%20%7C%203.7%20%7C%203.8%20%7C%203.9-blue" /> </a>
+<a href="https://github.com/DarkGod14/DarkGod14Bot" alt="pypi version"> <img src="https://img.shields.io/badge/pypi-v13.5-blue" /> </a>
+<a href="https://github.com/DarkGod14/DarkGod14Bot" alt="GitHub repo size"> <img src="https://img.shields.io/github/repo-size/DarkGod14/DarkGod14Bot" /> </a>
+<a href="https://github.com/DarkGod14/DarkGod14Bot/blob/master/LICENSE" alt="GPLv3 license"> <img src="https://img.shields.io/github/license/DarkGod14/DarkGod14Bot?style=flat&logo=github&color=success" /> </a>
+</p>
+<p align="center">
+<a href="" alt="DarkGod14"> <img src="https://img.shields.io/badge/built%20by-DarkGod14-blue" /> </a>
+<a href="https://github.com/DarkGod14/DarkGod14Bot/graphs/commit-activity" alt="Maintenance"> <img src="https://img.shields.io/badge/maintained%3F-yes-blue.svg" /> </a>
+<a href="https://makeapullrequest.com" alt="PRs Welcome"> <img src="https://img.shields.io/badge/PRs-welcome-blue.svg" /> </a>
+</p>
+
 A modular Telegram Python bot running on python3 with a sqlalchemy database.
 
-Can be found on telegram as [DarkGod14Bot](https://t.me/DarkGod14Bot).
+Originally a AstrakoBott fork, DarkGod14Bot evolved further and was built to be more robust. 
 
-The Support group can be reached out to at [DarkGod14Bot Support](https://t.me/DarkGod14BotSupport), where you can ask for help about [DarkGod14 (bot)](https://t.me/DarkGod14Bot), discover/request new features, report bugs, and stay in the loop whenever a new update is available :) 
+* Bot link:  <a href="https://t.me/DarkGod14Bot" alt="DarkGod14Bot"> <img src="https://img.shields.io/badge/%F0%9F%A4%96%20-DarkGod14Bot-blue" /> </a>
 
+* Support group:  <a href="https://t.me/DarkGod14BotSupport" alt="DarkGod14Bot Support"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
+
+* Recommended federation:  <a href="https://t.me/DarkGod14BotSupport/558" alt="GodnessFed"> <img src="https://img.shields.io/badge/🚫-GodnessFed-red" /> </a>
+
+In support group you can ask for help, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
 ## How to setup/deploy.
 
