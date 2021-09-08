@@ -5,8 +5,6 @@
 <p align="center">
 <a href="https://www.codacy.com/gh/DarkGod14/DarkGod14Bot/dashboard?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=DarkGod14/DarkGod14Bot&amp;utm_campaign=Badge_Grade" alt="Codacy Badge">
 <img src="https://app.codacy.com/project/badge/Grade/972e73015aaa4096bf109a79acae8afb" /> </a>
-<a href="https://github.com/DarkGod14/DarkGod14Bot" alt="Libraries.io dependency status for GitHub repo"> <img src="https://img.shields.io/librariesio/github/DarkGod14/DarkGod14Bot?style=flat&logo=github&color=red" /> </a>
-<a href="http://hits.dwyl.com/DarkGod14/DarkGod14Bot" alt="HitCount"> <img src="http://hits.dwyl.com/DarkGod14/DarkGod14Bot.svg" /> </a>
 <a href="https://github.com/DarkGod14/DarkGod14Bot/network/members" alt="GitHub stars"> <img src="https://img.shields.io/github/stars/DarkGod14/DarkGod14Bot?style=flat&logo=github&color=yellow" /> </a>
 <a href="https://github.com/DarkGod14/DarkGod14Bot/network/members" alt="GitHub forks"> <img src="https://img.shields.io/github/forks/DarkGod14/DarkGod14Bot" /> </a>
 </p>
