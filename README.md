@@ -36,7 +36,7 @@ Originally a AstrakoBott fork, DarkGod14Bot evolved further and was built to be 
 
 * Support group:  <a href="https://t.me/DarkGod14BotSupport" alt="DarkGod14Bot Support"> <img src="https://aleen42.github.io/badges/src/telegram.svg" /> </a>
 
-* Recommended federation:  <a href="https://t.me/DarkGod14BotSupport/558" alt="GodnessFed"> <img src="https://img.shields.io/badge/🚫-GodnessFed-red" /> </a>
+* Recommended federation:  <a href="https://t.me/GodnessFed" alt="GodnessFed"> <img src="https://img.shields.io/badge/🚫-GodnessFed-red" /> </a>
 
 In support group you can ask for help, discover/request new features, report bugs, and stay in the loop whenever a new update is available. 
 
