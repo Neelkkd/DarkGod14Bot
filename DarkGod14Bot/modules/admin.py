@@ -419,7 +419,7 @@ def __chat_settings__(chat_id, user_id):
     )
     
 
-
+@bot_admin
 @can_pin
 @user_admin
 @loggable
