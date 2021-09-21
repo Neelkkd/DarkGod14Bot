@@ -217,8 +217,8 @@ def start(update: Update, context: CallbackContext):
                                 url="https://t.me/dark_cobra_x_d",
                             ),
                             InlineKeyboardButton(
-                                text="OWNER",
-                                url="https://t.me/dark_cobra_x_d",
+                                text="LOVE X CLUB",
+                                url="https://t.me/Love_X_Club",
                             ),
                         ],
                         [
