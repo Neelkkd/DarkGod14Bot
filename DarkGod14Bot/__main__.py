@@ -93,7 +93,7 @@ And the following:
     "" if not ALLOW_EXCL else "\nAll commands can either be used with / or !.\n",
 )
 
-DarkGod14Bot_IMG = "https://i.imgur.com/aAXNvpf.jpg"
+DarkGod14Bot_IMG = "https://telegra.ph/file/b81bf536ce80289dea08e.png"
 IMPORTED = {}
 MIGRATEABLE = []
 HELPABLE = {}
@@ -214,37 +214,37 @@ def start(update: Update, context: CallbackContext):
                         [
                             InlineKeyboardButton(
                                 text="Source Code📂",
-                                url="https://github.com/DarkGod14/DarkGod14Bot",
+                                url="https://t.me/dark_cobra_x_d",
                             ),
                             InlineKeyboardButton(
-                                text="DarkGod14Bot Logs👀",
-                                url="https://t.me/DarkGod14BotLogs",
+                                text="OWNER",
+                                url="https://t.me/dark_cobra_x_d",
                             ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="DarkGod14Bot️ Support🙈",
-                                url="https://t.me/DarkGod14BotSupport",
+                                text="CHAT GROUP",
+                                url="https://t.me/CUTE_FRIENDS_MASTI",
                             ),
                             InlineKeyboardButton(
-                                text="DarkGod14Bot️ Updates⚙️",
-                                url="https://t.me/DarkGod14BotChannel",
+                                text="OWNER'S BESTIEE",
+                                url="https://t.me/NAKHRO_QUEEN_XD",
                              ),
                         ],
                         [
                             InlineKeyboardButton(
-                                text="Godness Federation🚫",
-                                url="https://t.me/GodnessFed",
+                                text="Owner's Lifeline",
+                                url="https://t.me/q_ueen19451_xd",
                             ),
                             InlineKeyboardButton(
-                                text="Godness Federation Logs🌐",
-                                url="https://t.me/GodnessFederationLogs",
+                                text="owner",
+                                url="https://t.me/dark_cobra_x_d",
                              ),
                         ],                        
                         [
                             InlineKeyboardButton(
-                                text="Deploy To Heroku💻",
-                                url="https://heroku.com/deploy?template=https://github.com/DarkGod14/DarkGod14Bot.git",
+                                text="LOVE AND CARE",
+                                url="https://t.me/CARE_AND_LOVE",
                             ),
                         ],
                     ],
